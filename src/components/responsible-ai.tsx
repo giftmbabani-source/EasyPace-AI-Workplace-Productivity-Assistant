@@ -4,7 +4,7 @@ export function ResponsibleAi({ compact = false }: { compact?: boolean }) {
   return (
     <section
       aria-label="Responsible AI notice"
-      className="rounded-xl border border-border bg-accent/40 p-4 sm:p-5"
+      className="rounded-lg border border-border bg-accent/40 p-4 sm:p-5"
     >
       <div className="flex items-start gap-3">
         <ShieldCheck className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
