@@ -80,8 +80,8 @@ function Dashboard() {
   return (
     <div className="space-y-8">
       <PageHeader
-        title="Welcome back 👋"
-        description="Work smarter. Move at your own pace. Pick a tool below and let EasyPace AI take the busywork off your plate."
+        title="Welcome back"
+        description="Work smarter. Move at your own pace. Select a tool below and let EasyPace AI handle the busywork."
       />
 
       <section aria-label="Productivity overview" className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
