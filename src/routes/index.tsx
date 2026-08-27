@@ -80,7 +80,7 @@ function Dashboard() {
   return (
     <div className="space-y-8">
       <PageHeader
-        title="Welcome back to EasyPace AI"
+        title="Welcome back"
         description="Work smarter. Move at your own pace. Select a tool below and let EasyPace AI handle the busywork."
       />
 
