@@ -39,7 +39,7 @@ export function AiOutput({
 
   if (loading) {
     return (
-      <div className="flex min-h-64 flex-col items-center justify-center gap-3 rounded-xl border border-dashed border-border bg-muted/40 p-8 text-center">
+      <div className="flex min-h-64 flex-col items-center justify-center gap-3 rounded-lg border border-dashed border-border bg-muted/40 p-8 text-center">
         <Sparkles className="h-6 w-6 animate-pulse text-primary" />
         <p className="text-sm font-medium text-foreground">EasyPace AI is working…</p>
         <p className="text-xs text-muted-foreground">This usually takes a few seconds.</p>
@@ -54,7 +54,7 @@ export function AiOutput({
 
   if (!value) {
     return (
-      <div className="flex min-h-64 flex-col items-center justify-center gap-2 rounded-xl border border-dashed border-border bg-muted/30 p-8 text-center">
+      <div className="flex min-h-64 flex-col items-center justify-center gap-2 rounded-lg border border-dashed border-border bg-muted/30 p-8 text-center">
         <Sparkles className="h-6 w-6 text-muted-foreground" />
         <p className="text-sm font-medium text-foreground">{emptyTitle}</p>
         <p className="max-w-xs text-xs text-muted-foreground">{emptyHint}</p>

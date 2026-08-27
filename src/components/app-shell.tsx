@@ -29,7 +29,7 @@ export const NAV_ITEMS = [
 function Brand() {
   return (
     <Link to="/" className="flex items-center gap-2.5">
-      <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground">
+      <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
         <Zap className="h-5 w-5" />
       </span>
       <span className="leading-tight">
@@ -87,7 +87,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         <div className="mt-7 flex-1 overflow-y-auto">
           <NavList />
         </div>
-        <div className="rounded-xl bg-accent/50 p-3 text-[11px] leading-relaxed text-muted-foreground">
+        <div className="rounded-lg bg-accent/50 p-3 text-[11px] leading-relaxed text-muted-foreground">
           Always review AI output before sharing it at work.
         </div>
       </aside>

@@ -80,8 +80,8 @@ function Dashboard() {
   return (
     <div className="space-y-8">
       <PageHeader
-        title="Welcome back 👋"
-        description="Work smarter. Move at your own pace. Pick a tool below and let EasyPace AI take the busywork off your plate."
+        title="Welcome back"
+        description="Work smarter. Move at your own pace. Select a tool below and let EasyPace AI handle the busywork."
       />
 
       <section aria-label="Productivity overview" className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
@@ -98,7 +98,7 @@ function Dashboard() {
                 <p className="mt-1 text-2xl font-semibold text-foreground">{stat.value}</p>
                 <p className="mt-1 text-[11px] text-muted-foreground">{stat.hint}</p>
               </div>
-              <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
+              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
                 <stat.icon className="h-5 w-5" />
               </span>
             </CardContent>
@@ -135,7 +135,7 @@ function Dashboard() {
             <Link key={f.to} to={f.to} className="group">
               <Card className="h-full transition-all group-hover:-translate-y-0.5 group-hover:border-primary/40 group-hover:shadow-md">
                 <CardHeader>
-                  <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
+                  <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
                     <f.icon className="h-5 w-5" />
                   </span>
                   <CardTitle className="mt-3 text-base">{f.title}</CardTitle>

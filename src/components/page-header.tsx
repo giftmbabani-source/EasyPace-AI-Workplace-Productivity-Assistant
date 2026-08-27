@@ -13,7 +13,7 @@ export function PageHeader({
     <header className="space-y-1.5">
       <div className="flex items-center gap-3">
         {icon ? (
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
+          <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
             {icon}
           </span>
         ) : null}

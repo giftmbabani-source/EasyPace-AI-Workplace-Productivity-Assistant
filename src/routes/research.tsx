@@ -85,7 +85,7 @@ ${questions || "None provided"}`,
 
       <div
         role="note"
-        className="flex items-start gap-3 rounded-xl border border-border bg-card p-4"
+        className="flex items-start gap-3 rounded-lg border border-border bg-card p-4"
       >
         <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
         <p className="text-xs leading-relaxed text-muted-foreground">

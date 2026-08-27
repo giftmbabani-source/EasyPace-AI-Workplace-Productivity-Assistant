@@ -103,7 +103,7 @@ function TaskPlannerPage() {
           </CardHeader>
           <CardContent className="space-y-4">
             {tasks.map((task, index) => (
-              <div key={task.id} className="rounded-xl border border-border p-3">
+              <div key={task.id} className="rounded-lg border border-border p-3">
                 <div className="mb-2 flex items-center justify-between">
                   <span className="text-xs font-medium text-muted-foreground">
                     Task {index + 1}
